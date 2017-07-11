@@ -19,7 +19,7 @@ class App extends Component {
 				
 				}
 
-		dotsx.push(<div> {dots} </div>);
+		dotsx.push(<div style="width:200px !important;"> {dots} </div>);
 
 		}
 
