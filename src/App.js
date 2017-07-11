@@ -19,7 +19,7 @@ class App extends Component {
 				
 				}
 
-		dotsx.push(<div width="200px"> {dots} </div>);
+		dotsx.push(<div style="display:inline"> {dots} </div>);
 
 		}
 
