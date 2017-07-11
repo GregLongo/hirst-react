@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Spot from './Spot.js';
 
 
 class App extends Component {
