@@ -5,7 +5,7 @@ import Moose from './Moose';
 
 class App extends Component {
   render() {
-  	var dots [];
+  	var dots= [];
 	var randomColor;
 
   	for (i==; i < 8 ; i++){
