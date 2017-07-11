@@ -7,7 +7,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Moose />
+        <Moose fill="red" />
       </div>
     );
   }
