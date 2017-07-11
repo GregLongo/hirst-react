@@ -12,5 +12,5 @@ class Spot extends Component {
     );
   }
 }
-
+//i am comment
 export default Spot;
