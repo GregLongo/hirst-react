@@ -10,6 +10,7 @@ class App extends Component {
 	var randomColor;
   	
 	  for (var j=1 ; j < 4 ; j++){
+
 	  	for (var i=1 ; i < 4 ; i++){
 
 	  	        randomColor = "#000000".replace(/0/g,function(){return (~~(Math.random()*16)).toString(16);});
@@ -17,7 +18,9 @@ class App extends Component {
 	  	        dots.push(<Moose fill={ randomColor } />);
 				
 				}
-		dotsx.push(dots);
+
+
+		dotsx.push(	<div style="display:inline"> dots </div> );
 
 		}
 
