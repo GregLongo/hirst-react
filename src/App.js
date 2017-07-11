@@ -10,6 +10,7 @@ class App extends Component {
 	var randomColor;
   	
 	  for (var j=1 ; j < 4 ; j++){
+	  	<div >
 
 	  	for (var i=1 ; i < 4 ; i++){
 
@@ -18,9 +19,9 @@ class App extends Component {
 	  	        dots.push(<Moose fill={ randomColor } />);
 				
 				}
+		</div>
 
-
-		dotsx.push(	<div style="display:inline"> dots </div> );
+		dotsx.push(dots);
 
 		}
 
