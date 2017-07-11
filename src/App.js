@@ -9,8 +9,8 @@ class App extends Component {
   	var dotsx =[];
 	var randomColor;
   	
-	  for (var j=0 ; j < 8 ; j++){
-	  	for (var i=0 ; i < 8 ; i++){
+	  for (var j=1 ; j < 9 ; j++){
+	  	for (var i=1 ; i < 9 ; i++){
 
 	  	        randomColor = "#000000".replace(/0/g,function(){return (~~(Math.random()*16)).toString(16);});
 
