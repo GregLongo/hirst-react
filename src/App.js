@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
-import Spot from './Spot';
+import Moose from './Moose';
 
 
 class App extends Component {
   render() {
     return (
       <div>
-        <Spot />
+        <Moose />
       </div>
     );
   }

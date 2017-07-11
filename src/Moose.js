@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Spot extends Component {
+class Moose extends Component {
   render() {
     return (
 
@@ -8,4 +8,4 @@ class Spot extends Component {
   }
 }
 //i am comment
-export default Spot;
+export default Moose;
