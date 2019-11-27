@@ -1,32 +1,27 @@
 import React, { Component } from 'react';
 import './App.css';
-import Moose from './Moose';
+import Spot from './Spot';
 
 
 class App extends Component {
   render() {
-  	var dots= [];
-  	var dotsx =[];
-	var randomColor;
-  	
-	  for (var j=1 ; j < 4 ; j++){
+    var dots= [];
+    var dotsx =[];
+    var randomColor;
 
-	  	for (var i=1 ; i < 4 ; i++){
+    for (var j=0 ; j < 3 ; j++) {
+      for (var i=0 ; i < 3 ; i++) {
 
-	  	        randomColor = "#000000".replace(/0/g,function(){return (~~(Math.random()*16)).toString(16);});
+        randomColor = "#000000".replace(/0/g,function(){return (~~(Math.random()*16)).toString(16);});
+        dots.push(<Spot fill={ randomColor } />);
+        dotsx.push(<div className="dots"> {dots} </div>);
 
-	  	        dots.push(<Moose fill={ randomColor } />);
-				
-				}
-
-		dotsx.push(<div className="dots"> {dots} </div>);
-
-		}
-
-    return (
-      <div>
-      	{dotsx}
-      </div>
+  }
+}
+  return (
+    <div>
+    {dotsx}
+    </div>
     );
   }
 }
